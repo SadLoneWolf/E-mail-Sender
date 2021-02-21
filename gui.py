@@ -59,4 +59,7 @@ text_label.grid(row=5,column=0)
 text_field = tk.Text(window,height=10)
 text_field.grid(row = 7,column = 0,columnspan=5)
 
+#Button
+send = tk.Button(window,text ='Send')
+send.grid(row = 10,column = 1,columnspan =3)
 window.mainloop()
